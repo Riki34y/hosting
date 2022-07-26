@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url("file:///C:/Users/ricar/OneDrive%20-%20Programa%20%C2%A1Sup%C3%A9rate!/Desktop/sito%20web%20Escolar/parro%2011.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	t-family: Arial,Helvetica, sans-serif;
+
+}
+#container{
+	width: 90%;
+	margin: 0px auto;
+}
+img{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: -70px;
+}
+header h1{
+	background-color: rgb(0, 0, 0);
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 200px;
+	color: #ffffff;
+	border-bottom: 10px  #ffffff;
+	font-size: 50px;
+
+}
+nav{
+	background: #00000098;
+	height: 50px;
+	border-bottom: 9px solid #fbff0af1;
+	
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	margin: 10px;
+	color: #ffffff00;
+	font-size: 20px;
+	line-height: 30px;
+	
+}
+
+.clear{
+	clear: both;
+}
+#contenido{
+	float: left;
+	width: calc(80% - 80px);
+	min-height: 500px;
+	background: #ffffffb7;
+	padding: 40px;
+	
+}
+html,body
+{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+	background-color: #000000;
+
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.btn
+{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+i.fa
+{
+    font-size: 44px;
+}
+#fb
+{
+    color: #006fff;
+    text-shadow: 0 0 30px #006fff;
+}
+#ig
+{
+    color: #ff5f40;
+    text-shadow: 0 0 30px #ff5f40;
+}
+#tw
+{
+    color: #00acff;
+    text-shadow: 0 0 30px #00acff;
+}
+.btn.fb-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
+}
+.btn.fb-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
+}
+.btn.ig-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+.btn.ig-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
+}
+.btn.tw-btn
+{
+    box-shadow: 0 20px 20px -17px rgba(0,255,255,0.53);
+}
+.btn.tw-btn:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.6);
+}
+footer{
+	color: rgb(255, 255, 255);
+}
+.article{
+	color: #000000;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;
+	border-bottom-right-radius: 9px;
+}
+
+aside{
+	float: left;
+	width: calc(20% - 20px);
+	min-height:560px;
+	background: #e2b785;
+	padding: 10px;
+}
+
